@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "TraceLens",
+    "version": "REPLACED-BY-VITE",
+    "description": "A DevTools extension for capturing high-signal API traffic and exporting clean JSON sessions.",
+    "icons": {
+        "34": "assets/icons/icon-34.png",
+        "128": "assets/icons/icon-128.png"
+    },
+    "devtools_page": "src/devtools/index.html",
+    "web_accessible_resources": [
+        {
+            "resources": ["assets/icons/*.png"],
+            "matches": [],
+            "extension_ids": []
+        }
+    ],
+    "permissions": ["storage", "downloads"],
+    "host_permissions": []
+}

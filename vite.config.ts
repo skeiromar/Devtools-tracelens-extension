@@ -1,0 +1,30 @@
+import path from 'node:path';
+import { defineConfig } from 'vite';
+
+import { crx } from '@crxjs/vite-plugin';
+import react from '@vitejs/plugin-react';
+
+import manifest from './manifest.json';
+import packageJson from './package.json';
+
+// https://vitejs.dev/config/
+export default defineConfig({
+    plugins: [
+        react(),
+        crx({
+            manifest: {
+                ...manifest,
+                version: packageJson.version
+            }
+        })
+    ],
+    resolve: {
+        alias: {
+            '@': path.join(__dirname, './src')
+        }
+    },
+    build: {
+        outDir: 'dist',
+        emptyOutDir: true
+    }
+});

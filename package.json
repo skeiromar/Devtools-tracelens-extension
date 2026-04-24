@@ -1,0 +1,44 @@
+{
+    "name": "tracelens-extension",
+    "version": "1.0.0",
+    "description": "TraceLens Chrome DevTools extension",
+    "license": "MIT",
+    "type": "module",
+    "scripts": {
+        "lint": "eslint . --cache --cache-strategy content --cache-location .cache/.eslintcache",
+        "check-types": "tsc --noEmit",
+        "format": "prettier --config prettier.config.js --write .",
+        "watch": "vite build --watch",
+        "build": "vite build"
+    },
+    "dependencies": {
+        "@emotion/react": "^11.14.0",
+        "@emotion/styled": "^11.14.1",
+        "@fontsource/roboto": "^5.2.10",
+        "@mui/icons-material": "^7.3.9",
+        "@mui/material": "^7.3.9",
+        "@mui/system": "^7.3.9",
+        "axios": "^1.14.0",
+        "react": "^19.2.4",
+        "react-dom": "^19.2.4"
+    },
+    "devDependencies": {
+        "@crxjs/vite-plugin": "^2.4.0",
+        "@eslint/js": "^9.39.4",
+        "@trivago/prettier-plugin-sort-imports": "^6.0.2",
+        "@types/node": "^24.12.0",
+        "@types/react": "^19.2.14",
+        "@types/react-dom": "^19.2.3",
+        "@vitejs/plugin-react": "^6.0.1",
+        "chrome-types": "^0.1.425",
+        "eslint": "^9.39.4",
+        "eslint-config-prettier": "^10.1.8",
+        "eslint-plugin-react": "^7.37.5",
+        "eslint-plugin-react-hooks": "^7.0.1",
+        "prettier": "^3.8.1",
+        "typescript": "^5.9.3",
+        "typescript-eslint": "^8.57.2",
+        "vite": "^8.0.3"
+    },
+    "packageManager": "yarn@4.13.0"
+}
