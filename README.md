@@ -1,6 +1,6 @@
-# TraceLens Extension
+# Devtools TraceLens Extension
 
-TraceLens is a Chrome DevTools extension for capturing high-signal API traffic, reviewing the requests in a dedicated panel, and exporting a clean JSON session for downstream analysis.
+Devtools TraceLens is a Chrome DevTools extension for capturing high-signal API traffic, reviewing the requests in a dedicated panel, and exporting a clean JSON session for downstream analysis.
 
 This repository was seeded from [Chrome-Extension-Boilerplate-React-Vite](https://github.com/ThomasKiljanczykDev/Chrome-Extension-Boilerplate-React-Vite) and then reshaped into a DevTools-first product.
 

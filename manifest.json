@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "name": "TraceLens",
+    "name": "Devtools TraceLens",
     "version": "REPLACED-BY-VITE",
     "description": "A DevTools extension for capturing high-signal API traffic and exporting clean JSON sessions.",
     "icons": {

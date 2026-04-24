@@ -1,5 +1,5 @@
 {
-    "name": "tracelens-extension",
+    "name": "devtools-tracelens-extension",
     "version": "1.0.0",
     "description": "TraceLens Chrome DevTools extension",
     "license": "MIT",
